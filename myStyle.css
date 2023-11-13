@@ -1,0 +1,228 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#contentsIn{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#contentsA{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: sticky;
+
+}
+
+#contentsB{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+#contentsC{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+.imgBoxFBg{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0;
+    background-color: aqua;
+}
+
+.imgWarp{
+    position: relative;
+
+}
+
+
+/*------------배경이미지-------------------*/
+
+.imgMBg{
+    height: 102vh;
+    position: absolute;
+    z-index: 0;
+
+}
+
+
+.imgWBg{
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.imgNBg{
+    height: 100vh;
+    position: absolute;
+    left: 43vW;
+    z-index: 1;
+}
+
+.imgALogo{
+    position: absolute;
+    right: 16vw;
+    width: 38vW;
+    top: 28vw;
+    z-index: 2;
+    
+}
+
+.imgBoxA{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(179, 255, 0);
+    margin-top: 0;
+}
+
+/*-----------슬라이더-------------------*/
+
+.Bt1{
+ position: absolute;
+ z-index: 3;
+ width: 2vw;
+ height: 4vh;
+ border-radius: 1vw;
+ background-color: #121980;
+}
+
+.Bt2{
+    position: absolute;
+    z-index: 3;
+    width: 2vw;
+    height: 4vh;
+    top: 0vW;
+    right: 1vW;
+    border-radius: 2vw;
+    background-color: #121980;
+   }
+
+   .Bt3{
+    position: absolute;
+    z-index: 3;
+    width: 2vw;
+    height: 4vh;
+    top: 0;
+    left: 0;
+    border-radius: 1vw;
+    background-color: #ffffff;
+   }
+
+.button:hover{
+    cursor: pointer;
+}
+
+.container1{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+/*------------라이트 이미지-------------------*/
+.lightIn{
+    position: absolute;
+    right: 59rem;
+    width: 6vW;
+    top: 20.5rem;
+    z-index: 2;
+}
+
+.lightB1{
+    position: absolute;
+    right: 33.2rem;
+    bottom: 8rem;
+    z-index: 1;
+}
+
+
+.lightB2{
+    position: absolute;
+    right: 33.2rem;
+    bottom: 8rem;
+    z-index: 1;
+}
+
+
+
+.lightB3{
+    position: absolute;
+    right: 33.2rem;
+    bottom: 8rem;
+    z-index: 1;
+}
+
+
+
+
+
+.lightA{
+    position: absolute;
+    right: 8.5rem;
+    width: 10rem;
+    top: rem;
+    z-index: 1;
+
+}
+
+.button:hover{
+    cursor: pointer;
+    
+}
+/*------------메인콘텐츠-------------------*/
+.imgBoxB{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(212, 0, 255);
+    margin-top: 0;
+}
+
+.imgA{
+    height: 108vh;
+    right: 0vW;
+    z-index: 0;
+    position: absolute;
+
+}
+
+.imgB{
+    height: 104vh;
+    left: 0vW;
+    z-index: 0;
+    position: absolute;
+}
